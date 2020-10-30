@@ -8,6 +8,7 @@ title: Resources
 
 * <https://github.com/common-workflow-language/cwltool>
 * <https://toil.readthedocs.io/en/latest/index.html>
+* <https://cromwell.readthedocs.io/en/stable/>
 
 ## Recommended tutorials 
 
