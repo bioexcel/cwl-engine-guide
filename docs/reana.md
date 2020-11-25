@@ -19,7 +19,6 @@ Related links:
   - [Deploying with Kubernetnes/Helm cluster](http://docs.reana.io/development/deploying-at-scale/)
 * [Hello world example](https://github.com/reanahub/reana-demo-helloworld)
 * [REANA-Workflow-Engine-CWL src](https://github.com/reanahub/reana-workflow-engine-cwl)
-* [REANA-Workflow-Engine-CWL developer docs](https://reana-workflow-engine-cwl.readthedocs.io/en/latest/)
 * [REANA-Workflow-Engine-CWL Docker images](https://hub.docker.com/r/reanahub/reana-workflow-engine-cwl)
 * [REANA-Workflow-Engine-CWL issue tracker](https://github.com/reanahub/reana-workflow-engine-cwl/issues)
 * [REANA-Workflow-Engine-CWL releases](https://github.com/reanahub/reana-workflow-engine-cwl/releases)
