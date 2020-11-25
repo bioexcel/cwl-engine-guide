@@ -1,7 +1,6 @@
 # Airflow
 
-
-Correct as of 25th November 2020
+_Last updated 2020-11-25 for Airflow-CWL 1.2.6 based on Apache Airflow 1.10.12_ 
 
 🚧 - Work-in-progress  
 ✅ - Support  

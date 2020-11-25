@@ -1,20 +1,8 @@
 ---
 title: Resources
+exclude: true
 ---
 
-# About this guide
-
-This aims to be a lightly opinionated guide to help you decide which implementation of [CWL](https://www.commonwl.org/) is best suited to your needs.  The opinions given here are based off the individual engines own claims and our experience with them.
-
-
-## What engines are covered
-
-We are only covering those workflow engines that are stable and in production, not those still being developed and lacking support or functionality. The ones we will consider are:
-
-* [Arvados](https://arvados.org/)
-* [Toil](http://toil.ucsc-cgl.org/)
-* [CWL-Airflow](https://github.com/Barski-lab/cwl-airflow)
-* [REANA](http://www.reana.io/)
 
 
 ## How to use this guide.
