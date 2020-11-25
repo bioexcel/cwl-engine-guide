@@ -1,6 +1,7 @@
 
 ---
 title: REANA
+date: 2020-11-25
 ---
 
 | Documentation | How-Tos | Install guides | GUI | CLI | Demo | Local install | Cluster | Cloud | Complex setup | Complex use |
@@ -18,7 +19,6 @@ Related links:
   - [Deploying with Kubernetnes/Helm cluster](http://docs.reana.io/development/deploying-at-scale/)
 * [Hello world example](https://github.com/reanahub/reana-demo-helloworld)
 * [REANA-Workflow-Engine-CWL src](https://github.com/reanahub/reana-workflow-engine-cwl)
-* [REANA-Workflow-Engine-CWL developer docs](https://reana-workflow-engine-cwl.readthedocs.io/en/latest/)
 * [REANA-Workflow-Engine-CWL Docker images](https://hub.docker.com/r/reanahub/reana-workflow-engine-cwl)
 * [REANA-Workflow-Engine-CWL issue tracker](https://github.com/reanahub/reana-workflow-engine-cwl/issues)
 * [REANA-Workflow-Engine-CWL releases](https://github.com/reanahub/reana-workflow-engine-cwl/releases)
@@ -88,7 +88,7 @@ The [REANA-Client](https://reana-client.readthedocs.io/en/latest/) explains the 
 
 No demo is available, however the [Hello world example](https://github.com/reanahub/reana-demo-helloworld) provides a walk-through.
 
-Some of the documentation assumes you have access to the <https://reana.cern.ch/> instance hosted by CERN - installing the REANA server locally is a 
+Some of the documentation assumes you have access to the <https://reana.cern.ch/> instance hosted by CERN - installing the REANA server locally is a non-trivial task.
 
 ## Single machine
 
