@@ -30,7 +30,7 @@ Arvados' maker Curii is one of the major contributors to the [Common Workflow La
 
 ## Features
 
-Arvados is perhaps the most feature-rich workflow engine for executing CWL, with multiple 
+Arvados is perhaps the most feature-rich workflow engine for executing CWL, with multiple options for access. It has co-evolved with CWL as its native workflow format, supporting almost all CWL features.
 
 ## GUI
 
