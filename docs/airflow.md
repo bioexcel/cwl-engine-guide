@@ -68,9 +68,11 @@ Airflow is designed to have worflows triggered from the web UI.  They can howeve
 
 ### Demo
 
+> Demonstration platform available? No
+
 No
 
-## Enviroment
+## Environment
 
 ### Single Machine
 
