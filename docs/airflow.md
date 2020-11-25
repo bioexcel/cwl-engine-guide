@@ -14,14 +14,19 @@ Correct as of 25th November 2020
 
 | Documentation | How-Tos | Install guides | GUI | CLI | Demo | Local install | Cluster | Cloud | Complex setup | Complex use | CWL version |
 | -- | --- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- |
-| 🚧 | 🚧 | ✅ | ❌ | ✅ | ❌ | ⚠ | ✅ | ⚠ | ⚠ | ⚠ | v1.1 |
+| ✅ | ✅ | ✅ | ✅ | ⚠ | ❌ | ✅ | ❌ | ❌ | ⚠ | ⚠ | v1.1 |
 
 
-## Links
+## Useful Links
+
 [Python Package](https://pypi.org/project/cwl-airflow/)
+
 [Airflow Documentation](https://airflow.apache.org/docs/stable/)
+
 [CWL-Airflow Documentation](https://cwl-airflow.readthedocs.io/en/latest/readme/how_to_use.html#using-airflow-cli)
+
 [Airflow](https://airflow.apache.org/)
+
 [CWL-Airflow Github](https://github.com/Barski-lab/cwl-airflow)
 
 
@@ -30,9 +35,6 @@ Correct as of 25th November 2020
 Airflow is  a platform to programmatically author, schedule and monitor workflows.  It is used to define and run workflows on a local machine. CWL-Airflow is an extension to this which supports the execution of CWL workflows.
 
 ## Documentation
-
-[Airflow Docs](https://airflow.apache.org/docs/stable/)
-[CWL-Airflow Docs](https://cwl-airflow.readthedocs.io/en/latest/index.html)
 
 Airflow itself has very detailed documentation which describes hwo to install and configure Airflow and how to run workflows.   The documentation for CWL Airflow is not as extensive - however it contains enough information to get you running a workflow. What is missing is how to move beyond execution of workflows on a single machine.
 
@@ -57,7 +59,6 @@ Airflow is designed to have worflows triggered from the web UI.  They can howeve
 ### Demo
 
 No
-
 
 ## Enviroment
 
