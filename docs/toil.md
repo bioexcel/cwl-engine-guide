@@ -1,8 +1,8 @@
 ---
-title: TOIL
+title: Toil
 ---
 
-Correct as of 25th November 2020
+_Last updated 2020-11-25 for Toil 4.2.0_
 
 | Documentation | How-Tos | Install guides | GUI | CLI | Demo | Local install | Cluster | Cloud | Complex setup | Complex use | CWL version |
 | -- | --- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- |
@@ -15,11 +15,11 @@ Correct as of 25th November 2020
 # Understanding Toil
 
 Related links:
-* [TOIL homepage](https://toil.ucsc-cgl.org/)
-* [TOIL installation instructions](http://toil.readthedocs.io/en/latest/gettingStarted/install.html)
-* [TOIL release notes](https://github.com/DataBiosphere/toil/releases/latest)
-* [TOIL documentation](https://toil.readthedocs.io/en/latest/)
-* [TOIL Gitter channel](https://gitter.im/bd2k-genomics-toil/Lobby)
+* [Toil homepage](https://toil.ucsc-cgl.org/)
+* [Toil installation instructions](http://toil.readthedocs.io/en/latest/gettingStarted/install.html)
+* [Toil release notes](https://github.com/DataBiosphere/toil/releases/latest)
+* [Toil documentation](https://toil.readthedocs.io/en/latest/)
+* [Toil Gitter channel](https://gitter.im/bd2k-genomics-toil/Lobby)
 
 Toil is a highly customisable workflow engine, written purely in python. It is a client side workflow engine only. It has multiple plugins which allow it to submit and control workflows.  Whilst some plugins are fully supported by the developers, others are considered to principally be community supported (including the toil plugin).  Through these plugins toil provides a single interface to access many different backends. 
 
