@@ -10,9 +10,9 @@ _Last updated 2020-11-25 for [Arvados 2.1](https://doc.arvados.org/v2.1/)._
 ❌ - No support  
 ⚠ - Complicated  
 
-| Documentation | How-Tos | Install guides | GUI | CLI | Demo | Local install | Cluster | Cloud | Ease of setup | Easy of use | CWL version |
+| Documentation | How-Tos | Install guides | GUI | CLI | API | Demo | Local | Cluster | Cloud | Ease of setup | Easy of use | CWL version |
 | -- | --- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- |
-| ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ⚠ | ⚠ | ✅ | v1.2 |
+| ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ⚠ | ✅ | ⚠ | ⚠ | ✅ | v1.2 |
 
 
 # Arvados
@@ -21,11 +21,51 @@ _Last updated 2020-11-25 for [Arvados 2.1](https://doc.arvados.org/v2.1/)._
 
 The server can be communicated with programmatically using [Arvados REST API](https://doc.arvados.org/api/), wrapped by [language bindings](https://doc.arvados.org/v2.1/sdk/) for Python, Go, R, Ruby, Java and Perl. 
 
-The [command line tool `arv`](https://doc.arvados.org/v2.1/sdk/cli/install.html) can be used for communicating with the Arvados server, and the [arvados-cwl-runner](https://doc.arvados.org/v2.0/user/cwl/cwl-run-options.html) provides a `cwl-runner` compliant command line for executing CWL workflows in one go.
+The [command line tool `arv`](https://doc.arvados.org/v2.1/sdk/cli/install.html) can be used for communicating with the Arvados server, and the [arvados-cwl-runner](https://doc.arvados.org/v2.1/user/cwl/cwl-run-options.html) provides a `cwl-runner` compliant command line for executing CWL workflows in one go.
 
 The Arvados server also provide a Web interface, the [Arvados Workbench](https://doc.arvados.org/v2.0/user/getting_started/workbench.html).
 
 Arvados' maker Curii is one of the major contributors to the [Common Workflow Language](https://www.commonwl.org/) standards, and Arvados 2.1 supports the latest [CWL specification 1.2](https://www.commonwl.org/v1.2/).
+
+
+## Features
+
+Arvados is perhaps the most feature-rich workflow engine for executing CWL, with multiple 
+
+## GUI
+
+* **GUI?** Yes
+
+The [Arvados Workbench](https://doc.arvados.org/v2.1/user/getting_started/workbench.html) provides a Web-based
+interface to running workflows on Arvados.
+
+It is also possible to create/modify CWL workflows in a graphical editor using the [Arvados Composer](https://doc.arvados.org/v2.1/user/composer/composer.html), which is based on the standalone [Rabix Composer](http://docs.rabix.io/rabix-composer-home).
+
+![Arvados Playground screenshot](assets/img/arvados-playground.png)
+
+However it is more common to edit CWL workflows locally and interact with Arvados server using the command line tool.
+
+## CLI
+
+* **CLI?** Yes
+
+The [arv](https://doc.arvados.org/v2.1/sdk/cli/index.html) command line tool provides shell access to interact with a remote Arvados server, to upload CWL workflows and its container images, to run workflows and to stage/unstage their inputs and outputs.
+
+The [arvados-cwl-runner](https://doc.arvados.org/v2.1/user/cwl/cwl-run-options.html) provides a `cwl-runner` interface compatible with `cwltool`, allowing remote workflow execution as if it was local.
+
+## API
+
+* **API?** Yes
+
+All features of Arvados can be accessed through the [Arvados REST API](https://doc.arvados.org/api/), which is also wrapped by [language bindings](https://doc.arvados.org/v2.1/sdk/) for Python, Go, R, Ruby, Java and Perl. 
+
+## Demo
+
+* **Demo?** Yes
+
+Arvados can be tried in the [Arvados Playground](https://playground.arvados.org/) or installed locally for evaluation purposes using [Arvados-in-a-box](https://doc.arvados.org/install/arvbox.html).
+
+The playground includes a pre-computed run of the tutorial [Processing Whole Genome Sequences](https://doc.arvados.org/v2.1/user/tutorials/wgs-tutorial.html) which can be followed step-by-step to get to know the Arvados Workbench.
 
 
 ## Installation options
