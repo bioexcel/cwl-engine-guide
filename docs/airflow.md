@@ -4,9 +4,13 @@
 Correct as of 25th November 2020
 
 🚧 - Work-in-progress
+
 ✅ - Support
+
 ❌ - No support
+
 ⚠ - Complicated
+
 
 | Documentation | How-Tos | Install guides | GUI | CLI | Demo | Local install | Cluster | Cloud | Complex setup | Complex use | CWL version |
 | -- | --- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- |
