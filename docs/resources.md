@@ -1,3 +1,4 @@
+
 ---
 title: Resources
 ---
@@ -5,6 +6,7 @@ title: Resources
 # About this guide
 
 This aims to be a lightly opinionated guide to help you decide which implementation of [CWL](https://www.commonwl.org/) is best suited to your needs.  The opinions given here are based off the individual engines own claims and our experience with them.
+
 
 ## What engines are covered
 
@@ -15,12 +17,14 @@ We are only covering those workflow engines that are stable and in production, n
 * [CWL-Airflow](https://github.com/Barski-lab/cwl-airflow)
 * [REANA](http://www.reana.io/)
 
+
 ## How to use this guide.
 
 This guide is written from the point of view of features.  You can read the whole guide, or if certain features are of particular interest you can read just those sections.  In each section we shall cover each workflow engine and how it supports each feature.
 
 
-? Use case based?
+<!-- ?Use case based? -->
+
 
 # Operating system
 
@@ -36,12 +40,13 @@ Arvados' documentation is geared towards uploading jobs and workflows through a 
 
 The commandline tools to interact with Arvados and submit jobs are written in both Python and Ruby.  These can be installed through `pip` and `gems`.
 
-.. The documentation on how to use these does not appear as comprehensive as the web interface, and is a little more diff
+<!--  The documentation on how to use these does not appear as comprehensive as the web interface, and is a little more diff -->
 
 
 # Run on local machine, or single host
 
 We discuss here whether each implementation can run on a local machine or single host. This is useful if you lack access to a cluster, or wish to develope your workflows on a single machine. For small workflows, the hastle of setting up a cluster maybe more time consuming that is needed for the workflow.
+
 
 ## Arvados
 
@@ -90,6 +95,10 @@ Arvados provides 2 main ways to use it:
 
 
 
+
+
+##################################################################
+
 New Format????
 
 
@@ -115,14 +124,33 @@ Cluster? Yes/No
 Cloud? Yes/No
 
 # Installing
-[O
+
 How complex?
 
 
 
-# Understanding ===== REANA
+Documentation? Yes
+How to guides? Yes
+Install Guides? Yes
+GUI? Yes
+CLI? Yes
+Demo? No
+Single Machine? Sort of (MiniKube)
+Cluster? Yes (K8s)
+Cloud? Indirectly (K8s)
+Complexity to setup? Low
+Complexity to use? ???
+
+
+# Understanding REANA
+
+https://docs.reana.io/
+https://github.com/reanahub/reana-demo-helloworld
+
+
 
 REANA is a platform for running workflows.  It features two main packages for a server and client.  The server provides a scheduler and nodes on which to run workflows.
+
 
 
 Documentation? Yes/No
@@ -143,7 +171,7 @@ The server installation has two sets of instructions, one for a local install an
 
 The local install requires the use of minikube to create a local single machine kubernetes cluster.  REANA provide [documentation](http://docs.reana.io/development/deploying-locally/) on how to install and setup minikube to provide a REANA instance on a single node or machine.
 
-.. As with other documentation, this is short and to the point.  If the [installation](http://docs.reana.io/development/deploying-at-scale) works on your system then it is fine. However, if you encounter any problems the documentation is not detailed enough to work you through it at this time.
+<!-- As with other documentation, this is short and to the point.  If the [installation](http://docs.reana.io/development/deploying-at-scale) works on your system then it is fine. However, if you encounter any problems the documentation is not detailed enough to work you through it at this time. -->
 
 
 # Features
@@ -169,6 +197,9 @@ Whilst REANA is designed to work with a cluster, the developers document clearly
 
 Cluster? Yes/No
 
+
+
+
 REANA is designed to work with a cluster to provide the computing power and storage.  The preferred way of doing this is with a kubernetes cluster. 
 
 Cloud? Yes/No
@@ -176,7 +207,7 @@ Cloud? Yes/No
 REANA does not have a native interface to AWS or other cloud providers.
 
 
-..  ?? Could we use a k8s on AWS?, but these could potentially be used as part of a kubernetes cluster.
+<!-- Could we use a k8s on AWS?, but these could potentially be used as part of a kubernetes cluster. -->
 
 # Installing
 
@@ -184,10 +215,10 @@ How complex?
 
 REANA is designed to be deployed on a kubernetes cluster. The documentation provides details of how to deploy a REANA cluster using helm. There is no "common problems" section.  This maybe due to the simplicity of the install, or an oversight on the part of the development team - in which case, the documentation may improve as the re-write continues but currently it is very sparse and assumes no install problems.
 
+----
 
 
-
-# Understanding ==== Toil
+# Understanding Toil
 
 Toil is a highly customisable workflow engine. Toil is a client side workflow enginer only. It has multiple plugins which allow it to submit and control workflows.  Whilst some plugins are fully supported, some are considered community supported.  Through these plugins toil provides a single interface to access many different backends. 
 
@@ -246,9 +277,9 @@ REST API?
 
 
 
-# Understanding ========= Airlow
+# Understanding Airflow
 
-Overview
+## Overview
 
 Airflow is a scheduler ran on a local machine.  It can run workflow on a  local machine, or with the neccessary packages and user accounts, it can schedule jobs to run on cloud providers such as k8s or AWS.
 
@@ -290,7 +321,7 @@ Cloud? Yes/No
 Yes, through the correct extra packages to connect to the c;loud.
 
 # Installing
-[O
+
 How complex?
 
 
