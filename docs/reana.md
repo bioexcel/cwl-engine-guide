@@ -2,17 +2,10 @@
 ---
 title: REANA
 ---
-Documentation? Yes
-How to guides? Yes
-Install Guides? Yes
-GUI? Yes
-CLI? Yes
-Demo? No
-Single Machine? Sort of (MiniKube)
-Cluster? Yes (K8s)
-Cloud? Indirectly (K8s)
-Complexity to setup? Low
-Complexity to use? ???
+
+| Documentation | How-Tos | Install guides | GUI | CLI | Demo | Local install | Cluster | Cloud | Complex setup | Complex use |
+| -- | --- | -- | -- | -- | -- | -- | -- | -- | -- | -- |
+| ⚠ | ⚠ | ✅ | ✅ | ✅ | ❌ | ⚠ | ✅ | ⚠ | ⚠ | ⚠ |
 
 
 # Understanding REANA
