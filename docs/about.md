@@ -9,7 +9,17 @@ This BioExcel Best Practice Guide aims to be a lightly opinionated guide to help
 
 ## Overview of Common Workflow Language
 
+For an introduction to [Common Workflow Language](https://www.commonwl.org/), see:
 
+* [CWL user guide](https://www.commonwl.org/user_guide/)
+
+[BioExcel Best Practice Guides](https://docs.bioexcel.eu/) include:
+
+* [Creating workflows with Common Workflow Language](https://docs.bioexcel.eu/cwl-best-practice-guide/)
+
+## How to use this guide.
+
+This guide is written from the point of view of features.  You can read the whole guide, or if certain features are of particular interest you can read just those sections.  In each section we shall cover each workflow engine and how it supports each feature.
 
 ## What engines are covered
 
