@@ -62,9 +62,9 @@ No
 
 ## Enviroment
 
-### Single Machine running
+### Single Machine
 
-Yes. Airflow is a single pip install and will run on a local machine.
+Airflow is designed to run on a single node.  It has a server and client component, but these are designed to be installed on a single machine.
 
 ### Cluster
 
