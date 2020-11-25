@@ -1,12 +1,11 @@
-
 ---
 title: REANA
 date: 2020-11-25
 ---
 
-| Documentation | How-Tos | Install guides | GUI | CLI | Demo | Local install | Cluster | Cloud | Complex setup | Complex use |
+| Docs | How-Tos | Install guides | GUI | CLI | Demo | Local install | Cluster | Cloud | Complex setup | Complex use |
 | -- | --- | -- | -- | -- | -- | -- | -- | -- | -- | -- |
-| 🚧 | 🚧 | ✅ | ✅ | ✅ | ❌ | ⚠ | ✅ | 🐕‍🦺 | 👨‍🔧 | ⚠ |
+| 🚧 | 🚧 | ✅ | ✅ | ✅ | ❌ | ⚠️ | ✅ | 🐕‍🦺 | 👨‍🔧 | ⚠️ |
 
 
 # Understanding REANA
