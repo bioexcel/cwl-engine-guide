@@ -5,7 +5,7 @@ title: REANA
 
 | Documentation | How-Tos | Install guides | GUI | CLI | Demo | Local install | Cluster | Cloud | Complex setup | Complex use |
 | -- | --- | -- | -- | -- | -- | -- | -- | -- | -- | -- |
-| 🚧 | 🚧 | ✅ | ✅ | ✅ | ❌ | ⚠ | ✅ | ⚠ | ⚠ | ⚠ |
+| 🚧 | 🚧 | ✅ | ✅ | ✅ | ❌ | ⚠ | ✅ | 🐕‍🦺 | ⚠ | ⚠ |
 
 
 # Understanding REANA
@@ -30,17 +30,19 @@ REANA is a general workflow engine that can run both [CWL](https://commonwl.org/
 
 ## Documentation
 
-* Documentation? Yes/No
+* **Documentation?** Under construction
 
 REANA previously had very thorough documentation on both installation of the software and using it for a workflow.  However, at the time of writing this guide (2020-12) their documentation is undergoing a major overhaul and re-write, which has resulted in some areas to be lacking documentation - the [titles are there](http://docs.reana.io/running-workflows/executing-workflows/) but the content has not been re-written.  We would hope that the documentation will return to normal soon, but we cannot guarentee this, nor know when this should happen.
 
 ## Usage guides
 
-* Usage guides? Yes/No
+* **Usage guides?** Brief
 
 Currently REANA has a very [brief tutorial](http://docs.reana.io/getting-started/first-example/) on how to submit and retrieve a workflow. There is enough information to get started, but the detailed tutorial has not been re-written yet.
 
 ## Install guides
+
+* **Install guides?** Yes
 
 There are two componenets to a REANA install: the command line client, and the server.  Both installations have only a few steps required to install them.
 
@@ -66,13 +68,15 @@ Knowledge about installing Kubernetes and associated technologies are essential 
 
 ## GUI
 
+* **GUI?** Yes
+
 REANA include a minimalist and clear GUI through a web browser.  This can be used to view workflow history and status.
 
 <!-- . ? Can it be used to submit jobs? or Download? Diagram suggests yes! -->
 
 ## CLI
 
-* CLI? Yes
+* **CLI?** Yes
 
 REANA's preferred method for submitting and interacting with workflows is through the `reana-client` command line (which is written in Python and can be installed using the Python package manager `pip`). Documentation is provided on how to submit and interact with workflows.  Additionally example workflows and instructions on how to run them are provided allowing for better understanding of how the system works.
 
@@ -80,7 +84,7 @@ The [REANA-Client](https://reana-client.readthedocs.io/en/latest/) explains the 
 
 ## Demo
 
-* Demo? No
+* **Demo?** No
 
 No demo is available, however the [Hello world example](https://github.com/reanahub/reana-demo-helloworld) provides a walk-through.
 
@@ -88,22 +92,21 @@ Some of the documentation assumes you have access to the <https://reana.cern.ch/
 
 ## Single machine
 
-* Single Machine? Local cluster
+* **Single Machine?** Local cluster
 
 Whilst REANA is designed to work with a cluster, the developers document clearly how to configure it to work on a single machine using kubernetes.  This does result in a lot of applications to install and the overhead of running these, but the process is quick and clear.
 
-## Cluster?
+## Cluster
 
-* Cluster? Yes (Kubernetes)
-
+* **Cluster?** Yes (Kubernetes)
 
 REANA is designed to work with a cluster to provide the computing power and storage.  The preferred way of doing this is with a kubernetes cluster. 
 
 ## Cloud
 
-* Cloud? Indirectly
+* **Cloud?** Indirectly
 
-REANA does not have a native interface to deploy instances with AWS or other cloud providers, but Kubernetes clusters are frequently deployed on the cloud, and [AWS support Kubernetes](https://aws.amazon.com/kubernetes/).
+REANA does not have a native interface to deploy instances with AWS or other cloud providers, but Kubernetes clusters are frequently deployed on the cloud, and [AWS support Kubernetes](https://aws.amazon.com/kubernetes/), including the [Amazon Elastic Kubernetes Service](https://aws.amazon.com/eks/)
 
 
 <!-- Could we use a k8s on AWS?, but these could potentially be used as part of a kubernetes cluster. -->
