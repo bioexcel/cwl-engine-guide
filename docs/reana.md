@@ -5,7 +5,7 @@ title: REANA
 
 | Documentation | How-Tos | Install guides | GUI | CLI | Demo | Local install | Cluster | Cloud | Complex setup | Complex use |
 | -- | --- | -- | -- | -- | -- | -- | -- | -- | -- | -- |
-| 🚧 | 🚧 | ✅ | ✅ | ✅ | ❌ | ⚠ | ✅ | 🐕‍🦺 | ⚠ | ⚠ |
+| 🚧 | 🚧 | ✅ | ✅ | ✅ | ❌ | ⚠ | ✅ | 🐕‍🦺 | 👨‍🔧 | ⚠ |
 
 
 # Understanding REANA
