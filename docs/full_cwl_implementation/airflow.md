@@ -1,16 +1,8 @@
-# Airflow
+---
+title: Airflow
+---
 
 _Last updated 2020-11-25 for Airflow-CWL 1.2.6 based on Apache Airflow 1.10.12_ 
-
-🚧 - Work-in-progress  
-✅ - Support  
-❌ - No support  
-⚠️  - Complicated  
-
-| Documentation | How-Tos | Install guides | GUI | CLI | Demo | Local install | Cluster | Cloud | Complex setup | Complex use | CWL version |
-| -- | --- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- |
-| ✅ | ✅ | ✅ | ✅ | ⚠️  | ❌ | ✅ | ❌ | ❌ | ⚠️  | ⚠️  | v1.1 |
-
 
 | Documentation  | ✅ |
 | How-Tos        | ✅ |
@@ -25,20 +17,19 @@ _Last updated 2020-11-25 for Airflow-CWL 1.2.6 based on Apache Airflow 1.10.12_
 | Complex use	 | ⚠️  |
 | CWL version	 | v1.1 |
 
-## Useful Links
+🚧 - Work-in-progress  
+✅ - Support  
+❌ - No support  
+⚠️  - Complicated  
 
-[Python Package](https://pypi.org/project/cwl-airflow/)
+## Overview
 
-[Airflow Documentation](https://airflow.apache.org/docs/stable/)
-
-[CWL-Airflow Documentation](https://cwl-airflow.readthedocs.io/en/latest/readme/how_to_use.html#using-airflow-cli)
-
-[Airflow](https://airflow.apache.org/)
-
-[CWL-Airflow Github](https://github.com/Barski-lab/cwl-airflow)
-
-
-## Summary
+Related links:
+* [Python Package](https://pypi.org/project/cwl-airflow/)
+* [Airflow Documentation](https://airflow.apache.org/docs/stable/)
+* [CWL-Airflow Documentation](https://cwl-airflow.readthedocs.io/en/latest/readme/how_to_use.html#using-airflow-cli)
+* [Airflow](https://airflow.apache.org/)
+* [CWL-Airflow Github](https://github.com/Barski-lab/cwl-airflow)
 
 Airflow is  a platform to programmatically author, schedule and monitor workflows.  It is used to define and run workflows on a local machine. CWL-Airflow is an extension to this which supports the execution of CWL workflows.
 
@@ -62,13 +53,13 @@ Airflow and cwl-airflow require that you install a single python package. The do
 
 ## Features
 
-### GUI / Webinterface
+### GUI / Web interface
 
 > GUI? Yes
 
 Airflow has a webinterface that may be used to submit, view and create various workflows. The web interface allows for the creation of DAGs (the primary way that Airflow defines workflows).  When running CWL workflows users are required to write a short (less than 3 lines) DAG wrapper for their CWL workflows and as such the Airflow documentation applies directly to CWL workflows.  The webinterface and how to use it is documented well in Airflow.  There are additional instructions for CWL specific aspects in the CWL Airflow documentation.
 
-### Command Line interface
+### Command Line
 
 > Command Line? Indirect
 
