@@ -1,7 +1,4 @@
----
-title: REANA
-date: 2020-11-25
----
+# REANA
 
 _Last updated 2020-11-25 for REANA 0.7.1_
 
