@@ -2,11 +2,16 @@
 title: Toil
 ---
 
-_Last updated 2020-11-25 for Toil 4.2.0_
+🚧 - Work-in-progress  
+✅ - Support  
+❌ - No support  
+⚠️  - Complicated  
+
+_Last updated 2020-11-26 for Toil 4.2.0_
 
 | Documentation | How-Tos | Install guides | GUI | CLI | Demo | Local install | Cluster | Cloud | Complex setup | Complex use | CWL version |
 | -- | --- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- |
-| 🚧 | 🚧 | ✅ | ❌ | ✅ | ❌ | ⚠ | ✅ | ⚠ | ⚠ | ⚠ | v1.2.0-dev4 |
+| ✅ | 🚧 | ✅ | ❌ | ✅ | ❌ | ✅ | ✅ | ✅ | ⚠ | ⚠ | v1.2.0-dev4 |
 
 
 ----
@@ -36,7 +41,6 @@ These are limited, but enough to get started running a CWL workflow on a local m
 
 Toil is a client based workflow system; as such it requires only a python package to be installed on the local machine (or submission host for HPC) and access to a cloud or HPC cluster to run. It can be installed from source or using pip or conda (via conda-forge), with documentation covering the options for installing via pip or building from source.
 
-CWL support is provided by the cwltool, and can be added at install time simply using `pip install toil[cwl]` (or equivalent for your install system).
 
 # Features
 
@@ -56,12 +60,12 @@ As Toil is a client only workflow engine, there is no demo.  There are install i
 
 Toil is supported on linux and OSX systems (we have not tested it on windows, nor is this mentioned in the documentation).
 
-Toil-cwl-runner will use toil to execute a CWL workflow and run it on the local machines - this is perhaps suitable for development and testing of workflows, but not for production workflows. It can use docker or singularity (still experimental) for running containers.
+Toil-cwl-runner will use toil to execute a CWL workflow and run it on the local machines - this is perhaps suitable for development and testing of workflows, but not for production workflows. It can use docker or singularity (still experimental support, but more suitable for HPC environments) for running containers.
 
 
 ## Cluster
 
-Toil is a client only workflow engine.  Various plugins allow users to submit jobs toeither HPC or Cloud systems.  Some are supported, and others are community support only.
+Toil is a client only workflow engine.  Various plugins allow users to submit jobs to either HPC or Cloud systems.  Some are directly supported by developers, and others are principally community supported.
 
 ## Cloud
 
@@ -70,7 +74,5 @@ Toil supports Amazon Web Services (AWS), Google Compute Engine (GCE), and Kubern
 
 # Installing
 
-Toil is a client only workflow engine, and requires only a single python package to be installed.
+Toil is a client only workflow engine, and requires only a few python packages to be installed. CWL support is provided by the cwltool, and can be added at install time simply using `pip install toil[cwl]` or `conda install toil cwltool` (or equivalent for your install system).
      
-Extra features?
-REST API?
