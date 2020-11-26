@@ -25,11 +25,35 @@ This guide is written from the point of view of features.  You can read the whol
 
 We are only covering those workflow engines that are stable and in production, not those still being developed and lacking support or functionality. The ones we will consider are:
 
-* [Toil](toil.md) - command line tool driven, can connect to multiple cloud/cluster compute backends
+* [Toil](full_cwl_implementation/toil.md) - command line tool driven, can connect to multiple cloud/cluster compute backends
 * [cwltool](https://github.com/common-workflow-language/cwltool) - reference implementation, only local execution
-* [Arvados](arvados.md) - client/server with Web interface and CLI
-* [CWL-Airflow](airflow.md) - extends Apache Airflow with CWL support
-* [REANA](reana.md) - Kubernetes execution, CWL is one of the supported languages
+* [Arvados](full_cwl_implementation/arvados.md) - client/server with Web interface and CLI
+* [CWL-Airflow](full_cwl_implementation/airflow.md) - extends Apache Airflow with CWL support
+* [REANA](full_cwl_implementation/reana.md) - Kubernetes execution, CWL is one of the supported languages
+
+In addition to these we will cover popular workflow engines that lack full CWL support.
+
+## Summary of engines
+| Feature        | Airflow | Arvados | REANA | Toil |
+| -------------- | ------- | ------- | ----- | ---- |
+| Documentation  | ✅ | ✅ | 🚧 | ✅ |
+| How-Tos        | ✅ | ✅ | 🚧 | 🚧 |
+| Install guides | ✅ | ✅ | ✅ | ✅ |
+| GUI            | ✅ | ✅ | ✅ | ❌ |
+| CLI		 | ⚠️  | ✅ | ✅ | ✅ |
+| Demo		 | ❌ | ✅ | ⚠️  | ❌ |
+| Local install	 | ✅ | ⚠️  | ⚠️  | ✅ |
+| Cluster	 | ❌ | ✅ | ✅ | ✅ |
+| Cloud		 | ❌ | ⚠️  | ⚠️  | ✅ |
+| Complex setup	 | ⚠️  | ⚠️  | ⚠️  | ✅ |
+| Complex use	 | ⚠️  | ✅ | ⚠️  | ⚠️  |
+| CWL version	 | v1.1 | v1.2 | v1.0? | v1.2.0-dev4 |
+
+🚧 - Work-in-progress  
+✅ - Support  
+❌ - No support  
+⚠️  - Complicated  
+
 
 No single workflow engine is the right for every user. We recommend you explore the engines according to this guide in the order prescribed above.
 
