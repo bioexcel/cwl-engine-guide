@@ -21,11 +21,6 @@ _Last updated 2020-11-25 for REANA 0.7.1_
 ❌ - No support  
 ⚠️ - Complicated  
 
-| Docs | How-Tos | Install guides | GUI | CLI | Demo | Local install | Cluster | Cloud | Complex setup | Complex use |
-| -- | --- | -- | -- | -- | -- | -- | -- | -- | -- | -- |
-| 🚧 | 🚧 | ✅ | ✅ | ✅ | ❌ | ⚠️ | ✅ | ⚠️  | ⚠️  | ⚠️ |
-
-
 ## Overview
 
 Related links: 

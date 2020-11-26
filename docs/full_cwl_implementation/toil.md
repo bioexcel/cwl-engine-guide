@@ -1,6 +1,4 @@
----
-title: Toil
----
+# Toil
 
 _Last updated 2020-11-26 for Toil 4.2.0_
 
