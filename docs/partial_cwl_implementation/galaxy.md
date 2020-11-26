@@ -1,4 +1,4 @@
-# Cromwell
+# Galaxy
 
 _Last updated xxx for xxxx based on xxxx_ 
 
