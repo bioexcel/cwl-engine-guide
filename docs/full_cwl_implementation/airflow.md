@@ -12,6 +12,19 @@ _Last updated 2020-11-25 for Airflow-CWL 1.2.6 based on Apache Airflow 1.10.12_
 | ✅ | ✅ | ✅ | ✅ | ⚠️  | ❌ | ✅ | ❌ | ❌ | ⚠️  | ⚠️  | v1.1 |
 
 
+| Documentation  | ✅ |
+| How-Tos        | ✅ |
+| Install guides | ✅ |
+| GUI            | ✅ |
+| CLI		 | ⚠️  |
+| Demo		 | ❌ |
+| Local install	 | ✅ |
+| Cluster	 | ❌ |
+| Cloud		 | ❌ |
+| Complex setup	 | ⚠️  |
+| Complex use	 | ⚠️  |
+| CWL version	 | v1.1 |
+
 ## Useful Links
 
 [Python Package](https://pypi.org/project/cwl-airflow/)
