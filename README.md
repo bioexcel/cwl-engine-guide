@@ -1,6 +1,7 @@
-The `docs/` folder has the [MarkDown](https://guides.github.com/features/mastering-markdown) content that is rendered to <https://bioexcel.github.io/cwl-best-practice-guide/> by [GitHub pages](https://pages.github.com/).
+This is the Github repository holding the raw markdown for the BioExcel CWL engines guide which is rendered here: <https://docs.bioexcel.eu/cwl-engine-guide/>
 
-A file like [intro.md](docs/intro.md) appears rendered as <https://bioexcel.github.io/cwl-best-practice-guide/intro> You may crosslink pages using relative links like `[background](background.md)` - the extension `.md` is replaced with `.html` in rendering.
+
+The `docs/` folder has the [MarkDown](https://guides.github.com/features/mastering-markdown) content that is rendered to <https://bioexcel.github.io/cwl-engine-guide/> by [GitHub pages](https://pages.github.com/).
 
 Note that files outside `docs` are not accessible within `github.io` and must be linked to by absolute URLs, e.g. <https://github.com/bioexcel/cwl-best-practice-guide/blob/master/example/>
 
