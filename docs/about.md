@@ -36,7 +36,7 @@ In addition to these we will cover popular workflow engines that lack full CWL s
 ## Summary of engines
 
 | Feature        | Airflow | Arvados | REANA | Toil |
-| -------------- | ------- | ------- | ----- | ---- |
+| -------------- |:-------:|:-------:|:-----:|:----:|
 | Documentation  | ✅ | ✅ | 🚧 | ✅ |
 | How-Tos        | ✅ | ✅ | 🚧 | 🚧 |
 | Install guides | ✅ | ✅ | ✅ | ✅ |
