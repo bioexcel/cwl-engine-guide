@@ -40,13 +40,13 @@ Toil is a highly customisable workflow engine, written purely in python. It is a
 
 Toil has clear documentation on how to install it and setup workflows. The documentation is thorough, although it is a little chaotic and hard to follow in places. Toil has its own native workflow system which dominates the documentation making it not as obvious to understand how to run a CWL workflow.  Toil is based heavily around interconnecting components. Whilst the documentation explains how to connect these together to run a toil workflow on various setups - it is not as clear how to use these with CWL, or how to run a CWL workflow the diverges from their singular use example.
 
-## How to guides
+### How to guides
 
 > How to guides? Limited
 
 These are limited, but enough to get started running a CWL workflow on a local machine or on AWS.
 
-## Install Guides
+### Install Guides
 
 > Install guides? Yes
 
