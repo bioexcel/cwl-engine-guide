@@ -2,18 +2,18 @@
 
 _Last updated 2020-11-26 for Toil 4.2.0_
 
-| Documentation  |  |
-| How-Tos        |  |
-| Install guides |  |
-| GUI            |  |
-| CLI		 | ️ |
-| Demo		 |  |
-| Local install	 |  |
-| Cluster	 |  |
-| Cloud		 |  |
-| Complex setup	 | ️️ |
-| Complex use	 | ️ |
-| CWL version	 |  |
+| Documentation  | ❌ |
+| How-Tos        | ❌ |
+| Install guides | ❌ |
+| GUI            | ❌ |
+| CLI		 | ️✅ |
+| Demo		 | ❌ |
+| Local install	 | ✅ |
+| Cluster	 | ✅ |
+| Cloud		 | ✅ |
+| Complex setup	 | ️️❌ |
+| Complex use	 | ️✅ |
+| CWL version	 | Partial 1.0 |
 
 🚧 - Work-in-progress  
 ✅ - Support  
