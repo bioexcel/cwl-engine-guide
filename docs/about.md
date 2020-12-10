@@ -37,33 +37,18 @@ In addition to these we will cover popular workflow engines that lack full CWL s
 
 | Feature        | Airflow | Arvados | REANA | Toil | Cromwell |
 | -------------- |:-------:|:-------:|:-----:|:----:|:--------:|
-| Documentation  | ✅ | ✅ | 🚧 | ✅ | ❌ |
-| How-Tos        | ✅ | ✅ | 🚧 | 🚧 | ❌ |
-| Install guides | ✅ | ✅ | ✅ | ✅ | ❌ |
-| GUI            | ✅ | ✅ | ✅ | ❌ | ❌ |
-| CLI		 | ⚠️  | ✅ | ✅ | ✅ | ✅ |
-| Demo		 | ❌ | ✅ | ⚠️  | ❌ | ❌ |
-| Local install	 | ✅ | ⚠️  | ⚠️  | ✅ | ✅ |
-| Cluster	 | ❌ | ✅ | ✅ | ✅ | ✅ |
-| Cloud		 | ❌ | ⚠️  | ⚠️  | ✅ | ✅ |
-| Complex setup	 | ⚠️  | ⚠️  | ⚠️  | ✅ | ❌ |
-| Complex use	 | ⚠️  | ✅ | ⚠️  | ⚠️  | ✅ |
-| CWL version	 | v1.1 | v1.2 | v1.0? | v1.2.0-dev4 | partial v1.0 |
-
-
-
-| Documentation  | ❌ |
-| How-Tos        | ❌ |
-| Install guides | ❌ |
-| GUI            | ❌ |
-| CLI		 | ️✅ |
-| Demo		 | ❌ |
-| Local install	 | ✅ |
-| Cluster	 | ✅ |
-| Cloud		 | ✅ |
-| Complex setup	 | ️️❌ |
-| Complex use	 | ️✅ |
-| CWL version	 | Partial 1.0 |
+| Documentation  | ✅ | ✅ | 🚧 | ✅ | ❌ | ❌ |
+| How-Tos        | ✅ | ✅ | 🚧 | 🚧 | ❌ | ❌ |
+| Install guides | ✅ | ✅ | ✅ | ✅ | ✅ | ⚠️  |
+| GUI            | ✅ | ✅ | ✅ | ❌ | ❌ | ️✅ |
+| CLI		 | ⚠️  | ✅ | ✅ | ✅ | ✅ | ❌ |
+| Demo		 | ❌ | ✅ | ⚠️  | ❌ | ❌ | ❌ |
+| Local install	 | ✅ | ⚠️  | ⚠️  | ✅ | ✅ | ⚠️  |
+| Cluster	 | ❌ | ✅ | ✅ | ✅ | ✅ | ⚠️  |
+| Cloud		 | ❌ | ⚠️  | ⚠️  | ✅ | ✅ | ⚠️  |
+| Complex setup	 | ⚠️  | ⚠️  | ⚠️  | ✅ | ❌ | ️✅ |
+| Complex use	 | ⚠️  | ✅ | ⚠️  | ⚠️  | ✅ | ️✅ |
+| CWL version	 | v1.1 | v1.2 | v1.0? | v1.2.0-dev4 | partial v1.0 | Unknown |
 
 
 🚧 - Work-in-progress  
