@@ -1,10 +1,10 @@
 # Cromwell
 
-_Last updated 2020-11-26 for Toil 4.2.0_
+_Last updated 2020-11-26 for Cromwell 54_
 
 | Documentation  | ❌ |
 | How-Tos        | ❌ |
-| Install guides | ❌ |
+| Install guides | ✅ |
 | GUI            | ❌ |
 | CLI		 | ️✅ |
 | Demo		 | ❌ |
