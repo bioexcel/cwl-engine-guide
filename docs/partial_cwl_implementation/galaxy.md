@@ -1,4 +1,4 @@
-# Cromwell
+# Galaxy
 
 _Last updated 2020-11-26 for Galaxy v20.09_
 
