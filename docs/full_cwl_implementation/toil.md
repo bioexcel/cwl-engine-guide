@@ -1,6 +1,6 @@
 # Toil
 
-_Last updated 2020-11-26 for Toil 4.2.0_
+_Last updated 2021-08-13 for Toil 5.3.0_
 
 | Documentation  | ✅ |
 | How-Tos        | 🚧 |
@@ -13,7 +13,7 @@ _Last updated 2020-11-26 for Toil 4.2.0_
 | Cloud		 | ✅ |
 | Complex setup	 | ️✅️ |
 | Complex use	 | ️⚠️  |
-| CWL version	 | v1.2.0-dev4 |
+| CWL version	 | v1.2.0 |
 
 🚧 - Work-in-progress  
 ✅ - Support  
@@ -29,7 +29,7 @@ Related links:
 * [Toil documentation](https://toil.readthedocs.io/en/latest/)
 * [Toil Gitter channel](https://gitter.im/bd2k-genomics-toil/Lobby)
 
-Toil is a highly customisable workflow engine, written purely in python. It is a client side workflow engine only. It has multiple plugins which allow it to submit and control workflows.  Whilst some plugins are fully supported by the developers, others are considered to principally be community supported (including the toil plugin).  Through these plugins toil provides a single interface to access many different backends. 
+Toil is a highly customisable workflow engine, written purely in python. It is a client side workflow engine only. It has multiple plugins which allow it to submit and control workflows.  Whilst some plugins are fully supported by the developers, others are considered to principally be community supported (including the cwl plugin).  Through these plugins toil provides a single interface to access many different backends. 
 
 
 ## Documentation
@@ -79,7 +79,7 @@ As Toil is a client only workflow engine, there is no demo.  There are install i
 
 Toil is supported on linux and OSX systems (we have not tested it on windows, nor is this mentioned in the documentation).
 
-Toil-cwl-runner will use toil to execute a CWL workflow and run it on the local machines - this is perhaps suitable for development and testing of workflows, but not for production workflows. It can use docker or singularity (still experimental support, but more suitable for HPC environments) for running containers.
+`toil-cwl-runner` will use toil to execute a CWL workflow and run it on the local machines - this is perhaps suitable for development and testing of workflows, but not for production workflows. It can use docker or singularity (still experimental support, but more suitable for HPC environments) for running containers.
 
 ### Cluster
 
