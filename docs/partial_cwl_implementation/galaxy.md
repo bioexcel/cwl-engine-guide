@@ -79,14 +79,13 @@ Galaxy by default will run on a single machine.
 
 > Run on a cluster? Yes, but not clear if possible for CWL Galaxy
 
-Galaxy can be configured to run on a cluster.  Training material on how to configure this is provided [here]((https://training.galaxyproject.org/training-material/topics/admin/tutorials\
-/connect-to-compute-cluster/tutorial.html).  Again this is for Galaxy without CWL, but by using the CWL Galaxy repository an install may be possible.
+Galaxy can be configured to run on a cluster.  Training material on how to configure this is provided [here](https://training.galaxyproject.org/training-material/topics/admin/tutorials/connect-to-compute-cluster/tutorial.html).  Again this is for Galaxy without CWL, but by using the CWL Galaxy repository an install may be possible.
 
 ### Cloud
 
 > Run on the cloud? Yes, but not clear if possible for CWL Galaxy
 
-Galaxy has instructions for how to install and deploy on the [loud](https://galaxyproject.org/cloud/). Whether this applies to CWL galaxy is unknown.
+Galaxy has instructions for how to install and deploy on the [cloud](https://galaxyproject.org/cloud/). Whether this applies to CWL galaxy is unknown.
 
 ## Installing
 
