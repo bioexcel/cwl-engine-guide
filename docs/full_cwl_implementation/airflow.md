@@ -35,13 +35,13 @@ Airflow is  a platform to programmatically author, schedule and monitor workflow
 
 > Documentation? Yes
 
-Airflow itself has very detailed documentation which describes hwo to install and configure Airflow and how to run workflows.   The documentation for CWL Airflow is not as extensive - however it contains enough information to get you running a workflow. What is missing is how to move beyond execution of workflows on a single machine.
+Airflow itself has very detailed documentation which describes how to install and configure Airflow and how to run workflows.   The documentation for CWL Airflow is not as extensive - however it contains enough information to get you running a workflow. What is missing is how to move beyond execution of workflows on a single machine.
 
 ### How to guides
 
 > How to guides? Yes
 
-Airflow has a lot how to guides on how to use, although their documentation on CWL specific use if much more limited, but gives you enough to get started.
+Airflow has a lot of how to guides on usage, although their documentation on CWL specific use is much more limited, giving you only enough to get started.
 
 ### Install Guides
 
@@ -55,13 +55,13 @@ Airflow and cwl-airflow require that you install a single python package. The do
 
 > GUI? Yes
 
-Airflow has a webinterface that may be used to submit, view and create various workflows. The web interface allows for the creation of DAGs (the primary way that Airflow defines workflows).  When running CWL workflows users are required to write a short (less than 3 lines) DAG wrapper for their CWL workflows and as such the Airflow documentation applies directly to CWL workflows.  The webinterface and how to use it is documented well in Airflow.  There are additional instructions for CWL specific aspects in the CWL Airflow documentation.
+Airflow has a web interface that may be used to submit, view and create various workflows. The web interface allows for the creation of DAGs (the primary way that Airflow defines workflows).  When running CWL workflows, users are required to write a short (less than 3 lines) DAG wrapper for their CWL workflows and as such the Airflow documentation applies directly to CWL workflows.  The web interface, and how to use it, is documented well in Airflow.  There are additional instructions for CWL specific aspects in the CWL Airflow documentation.
 
 ### Command Line
 
 > Command Line? Indirect
 
-Airflow is designed to have worflows triggered from the web UI.  They can however be triggered from the commandline using airflow.  Additional control for viewing the status and other features of the worklows can be found through the REST API.  However there is no fully functional native command line interface beyond the REST API.
+Airflow is designed to have workflows triggered from the web UI.  They can however be triggered from the commandline using airflow.  Additional control for viewing the status and other features of the workflows can be found through the REST API.  However there is no fully functional native command line interface beyond the REST API.
 
 ### Demo
 
@@ -93,5 +93,5 @@ No
 
 > Is the install process complex? No
 
-Whilst only a single python package is required to install CWL-Airflow, there are a few configurational files that need to be editted, and directories that need creating for Airflow to run.  Additionally 3 different services need to be started so that worklows can be submitted and executed.
+Whilst only a single python package is required to install CWL-Airflow, there are a few configuration files that need to be edited, and directories that need creating for Airflow to run.  Additionally 3 different services need to be started so that worklows can be submitted and executed.
 
