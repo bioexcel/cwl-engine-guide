@@ -36,7 +36,7 @@ Related links:
 * [REANA-Workflow-Engine-CWL releases](https://github.com/reanahub/reana-workflow-engine-cwl/releases)
 * [REANA Gitter chat room](https://gitter.im/reanahub/reana)
 
-REANA is a platform for running workflows.  It features two main packages for a server and client.  The server provides a scheduler and nodes on which to run workflows.
+REANA is a platform for running workflows.  It features two main packages, one for a server and one for a client.  The server provides a scheduler and nodes on which to run workflows.
 
 REANA is a general workflow engine that can run both [CWL](https://commonwl.org/) and [Yadage](https://github.com/yadage/yadage) workflows, through an outer job submission in the form of a [reana.yml](http://docs.reana.io/reference/reana-yaml/) file that combines the CWL workflow file with the input files and desired output locations.
 
@@ -56,13 +56,13 @@ Currently REANA has a very [brief tutorial](http://docs.reana.io/getting-started
 
 > Install guides? Yes
 
-There are two componenets to a REANA install: the command line client, and the server.  Both installations have only a few steps required to install them.
+There are two components to a REANA install: the command line client, and the server.  Both installations have only a few steps required to install them.
 
-The [commandline client](https://reana-client.readthedocs.io/en/latest/) is available as a Python package. [Installation](http://docs.reana.io/getting-started/first-example/) is limitted to a `pip install` with the need to export the servers url and an access token. It is recommended to use a Python [virtualenv](https://docs.python-guide.org/dev/virtualenvs/) to ensure the REANA dependency versions do not clash with other Python applications installed.
+The [commandline client](https://reana-client.readthedocs.io/en/latest/) is available as a Python package. [Installation](http://docs.reana.io/getting-started/first-example/) is limited to a `pip install` with the need to export the servers url and an access token. It is recommended to use a Python [virtualenv](https://docs.python-guide.org/dev/virtualenvs/) to ensure the REANA dependency versions do not clash with other Python applications installed.
 
 The client communicates with a REANA server. The CLI documentation may assume you have access to an existing REANA install. 
 
-The server installation has two sets of instructions, one for a local install and one for a cluster (or at scale) both require [Kubernetes](https://kubernetes.io/).  The cluster of "at scale" install is done using [helm](https://helm.sh/) on an Kubernetes cluster - which means that it assumes the existence of a Kubernetes cluster.
+The server installation has two sets of instructions, one for a local install and one for a cluster (or at scale), both require [Kubernetes](https://kubernetes.io/).  The cluster or "at scale" install is done using [helm](https://helm.sh/) on an Kubernetes cluster - which means that it assumes the existence of a Kubernetes cluster.
 
 The [local install of REANA](http://docs.reana.io/development/deploying-locally) requires the use of _minikube_ to create a local single machine Kubernetes cluster.  REANA provide [documentation](http://docs.reana.io/development/deploying-locally) on how to install and setup minikube to provide a REANA instance on a single node or machine.
 
@@ -90,7 +90,7 @@ REANA includes a minimalist and clear GUI through a web browser.  This can be us
 
 > CLI? Yes
 
-REANA's preferred method for submitting and interacting with workflows is through the `reana-client` command line (which is written in Python and can be installed using the Python package manager `pip`). Documentation is provided on how to submit and interact with workflows.  Additionally example workflows and instructions on how to run them are provided allowing for better understanding of how the system works.
+REANA's preferred method for submitting and interacting with workflows is through the `reana-client` command line (which is written in Python and can be installed using the Python package manager `pip`). Documentation is provided on how to submit and interact with workflows.  Additionally example workflows, and instructions on how to run them, are provided, allowing for better understanding of how the system works.
 
 The [REANA-Client](https://reana-client.readthedocs.io/en/latest/) explains the command line options.
 
@@ -120,7 +120,7 @@ REANA is designed to work with a cluster to provide the computing power and stor
 
 > Run on the Cloud? Indirectly
 
-REANA does not have a native interface to deploy instances with AWS or other cloud providers, but Kubernetes clusters are frequently deployed on the cloud, and [AWS support Kubernetes](https://aws.amazon.com/kubernetes/), including the [Amazon Elastic Kubernetes Service](https://aws.amazon.com/eks/)
+REANA does not have a native interface to deploy instances with AWS or other cloud providers, but Kubernetes clusters are frequently deployed on the cloud, and [AWS supports Kubernetes](https://aws.amazon.com/kubernetes/), including the [Amazon Elastic Kubernetes Service](https://aws.amazon.com/eks/).
 
 
 <!-- Could we use a k8s on AWS?, but these could potentially be used as part of a kubernetes cluster. -->
@@ -131,5 +131,5 @@ REANA does not have a native interface to deploy instances with AWS or other clo
 
 REANA is designed to be deployed on a Kubernetes cluster that is long-running with a fixed number of instances. 
 
-The documentation provides details of how to deploy a REANA cluster using _helm_. There is no "common problems" section.  This maybe due to the simplicity of the install, or an oversight on the part of the development team - in which case, the documentation may improve as the re-write continues but currently it is very sparse and assumes no install problems.
+The documentation provides details of how to deploy a REANA cluster using _helm_. There is no "common problems" section.  This maybe due to the simplicity of the install, or an oversight on the part of the development team - in which case, the documentation may improve as the re-write continues, but currently it is very sparse and assumes no install problems.
 
