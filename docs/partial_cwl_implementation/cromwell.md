@@ -27,14 +27,14 @@ Related links:
 * [Cromwell Github](https://github.com/broadinstitute/cromwell)
 * [Cromwell Tutorials](https://cromwell.readthedocs.io/en/stable/tutorials/FiveMinuteIntro/)
 
-Cromwell is a highly customisable workflow engine written in Java.  It is a client side workflow engine - it does have a server option, but this is still more client side than a true server setup.  CWL is not full support in Cromwell.  Its primary langauge is WDL (Workflow Description Language).  Cromwell has implemented support for the most commonly used parts of CWL - and is active in implementing further parts of the specification when requested.  
+Cromwell is a highly customisable workflow engine written in Java.  It is a client side workflow engine - it does have a server option, but this is still more client side than a true server setup.  CWL is not fully supported in Cromwell.  Its primary language is WDL (Workflow Description Language).  Cromwell has implemented support for the most commonly used parts of CWL - and is active in implementing further parts of the specification when requested.  
 
 
 ## Documentation
 
 > Documentation? No
 
-Cromwell has very comprehenive docuemntation for how to use it with WDL (although the documentation is often chaotic and not clear where to begin) but lacks any information on how to run CWL job.
+Cromwell has very comprehenive documentation for how to use it with WDL (although the documentation is often chaotic and not clear where to begin) but lacks any information on how to run a CWL job.
 
 ### How to guides
 
@@ -47,7 +47,7 @@ Cromwell has large amounts of documentation but lacks any information on how to 
 
 > Install guides? Yes
 
-Cromwell is a command line client so it does not require any installation.  Even the server setup does not require any installation.  All that is needed is to have Java install on the machine/
+Cromwell is a command line client so it does not require any installation.  Even the server setup does not require any installation.  All that is needed is to have Java installed.
 
 
 ## Features
@@ -56,13 +56,13 @@ Cromwell is a command line client so it does not require any installation.  Even
 
 > GUI? No, but REST API is available
 
-Cromwell does not have a GUI, but does have web interface for REST API commands.
+Cromwell does not have a GUI, but does have a web interface for REST API commands.
 
 ### Command Line
 
 > Command Line? Yes
 
-Cromwell is command line client.  Jobs can be submitted from the commandline.  As these are ran as commands and not submitted, there is no ability to question the status of the job.  When ran as a server, the REST API can be used to query the status of the workflow.
+Cromwell is a command line client.  Jobs can be submitted from the commandline.  As these are run as commands and not submitted to a server, there is no ability to question the status of the job.  When ran as a server, the REST API can be used to query the status of the workflow.
 
 ### Demo
 
