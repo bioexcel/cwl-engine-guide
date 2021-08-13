@@ -6,14 +6,25 @@ date: 2020-11-25
 _Last updated 2020-11-25 for [Arvados 2.1](https://doc.arvados.org/v2.1/)._
 
 
+| Feature        | Arvados | 
+| -------------- |:-------:|
+| Documentation  | ✅ |
+| How-Tos        | ✅ |
+| Install guides | ✅ |
+| GUI            | ✅ |
+| CLI		 | ✅ |
+| Demo		 | ✅ |
+| Local install	 | ⚠️ |
+| Cluster	 | ✅ |
+| Cloud		 | ⚠️ |
+| Complex setup	 | ⚠️ |
+| Complex use	 | ✅ |
+| CWL version	 | v1.2 |
+
+🚧 - Work-in-progress  
 ✅ - Support  
 ❌ - No support  
-⚠ - Complicated  
-
-| Documentation | How-Tos | Install guides | GUI | CLI | API | Demo | Local | Cluster | Cloud | Ease of setup | Easy of use | CWL version |
-| -- | --- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- |
-| ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ⚠ | ✅ | ⚠ | ⚠ | ✅ | v1.2 |
-
+⚠️  - Complicated 
 
 # Arvados
 
@@ -41,7 +52,7 @@ interface to running workflows on Arvados.
 
 It is also possible to create/modify CWL workflows in a graphical editor using the [Arvados Composer](https://doc.arvados.org/v2.1/user/composer/composer.html), which is based on the standalone [Rabix Composer](http://docs.rabix.io/rabix-composer-home).
 
-![Arvados Playground screenshot](assets/img/arvados-playground.png)
+![Arvados Playground screenshot](../assets/img/arvados-playground.png)
 
 However it is more common to edit CWL workflows locally and interact with Arvados server using the command line tool.
 
@@ -99,15 +110,15 @@ $ ./arvbox adduser demouser demo@example.com
 Note that many CWL workflow use [DockerRequirement](https://www.commonwl.org/user_guide/07-containers/index.html), but running Docker-in-Docker requires `-privileged` mode (effectively giving Arvados root access) or experimental [rootless Docker in Docker](https://docs.docker.com/engine/security/rootless/#rootless-docker-in-docker).
 ```
 
-```info
+```tip
 Arvados-in-a-box approach is intended for **demonstration/testing purposes** and is not intended for production use.
 ```
 
 #### Single host Arvados
 
-The [Single host](https://doc.arvados.org/v2.1/install/salt-single-host.html) install of Arvados uses [Saltstack](https://www.saltstack.com/) to install and configure Arvados as [individual components](https://doc.arvados.org/v2.0/architecture/index.html) on the server, as such this requires and installation and knowledge of Salt.  
+The [Single host](https://doc.arvados.org/v2.1/install/salt-single-host.html) install of Arvados uses [Saltstack](https://www.saltstack.com/) to install and configure Arvados as [individual components](https://doc.arvados.org/v2.0/architecture/index.html) on the server, as such this requires and installation and knowledge of [Salt](https://doc.arvados.org/v2.1/install/salt.html).  
 
-For the purposes of testing locally this is perhaps better suited to those who plan to use the cluster install of Arvados (using Saltstack) later.  There is also the option to do a complete _manual install_ of Arvados although they themselves note that this is complex.
+For the purposes of testing locally this is perhaps better suited to those who plan to use the cluster install of Arvados (using Saltstack) later.  There is also the option to do a complete _manual install_ of Arvados, although they themselves note that this is complex.
 
 
 ## Cluster/Cloud install
@@ -115,7 +126,7 @@ For the purposes of testing locally this is perhaps better suited to those who p
 Arvados can be configured for use on a cluster in 3 main ways:
 
 * Using **Saltstack** to setup and configure a cluster
-* Setting up Arvados to wrok with a **Kubernetes** cluster
+* Setting up Arvados to work with a **Kubernetes** cluster
 * **Manual** installation of Arvados and the cluster.
 
 ### Salt/Vagrant
@@ -151,7 +162,7 @@ Supported distributions as of Arvados 2.1:
 
 It is possible to configure Arvados' [Keepstore](https://doc.arvados.org/v2.1/install/install-keepstore.html)
 storage module to save data on [file system](https://doc.arvados.org/v2.1/install/configure-fs-storage.html), 
-[S3](https://doc.arvados.org/v2.1/install/configure-s3-object-storage.html) or [Azure blob](https://doc.arvados.org/v2.1/install/configure-azure-blob-storage.html)s.
+[S3](https://doc.arvados.org/v2.1/install/configure-s3-object-storage.html) or [Azure blobs](https://doc.arvados.org/v2.1/install/configure-azure-blob-storage.html).
 
 The working directories of Arvados for storing workflow definitions are also accessible as `git` repositories.
 
@@ -163,7 +174,7 @@ While it is possible to execute workflows locally on the Arvados head node, it i
 
 Arvados has helpers to build [compute node images](https://doc.arvados.org/v2.1/install/crunch2-cloud/install-compute-node.html) for Azure and Amazon AWS.
 
-Connecting Arvados to worker nodes on the cloud require [extensive configuration](https://doc.arvados.org/v2.1/install/crunch2-cloud/install-dispatch-cloud.html)
+Connecting Arvados to worker nodes on the cloud requires [extensive configuration](https://doc.arvados.org/v2.1/install/crunch2-cloud/install-dispatch-cloud.html).
 
 
 ### Cluster: Slurm
