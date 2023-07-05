@@ -35,20 +35,20 @@ In addition to these we will cover popular workflow engines that lack full CWL s
 
 ## Summary of engines
 
-| Feature        | Airflow | Arvados | REANA | Toil | Cromwell | Galaxy |
-| -------------- |:-------:|:-------:|:-----:|:----:|:--------:|:------:|
-| Documentation  | ✅ | ✅ | 🚧 | ✅ | ❌ | ❌ |
-| How-Tos        | ✅ | ✅ | 🚧 | 🚧 | ❌ | ❌ |
-| Install guides | ✅ | ✅ | ✅ | ✅ | ✅ | ⚠️  |
-| GUI            | ✅ | ✅ | ✅ | ❌ | ❌ | ️✅ |
-| CLI		 | ⚠️  | ✅ | ✅ | ✅ | ✅ | ❌ |
-| Demo		 | ❌ | ✅ | ⚠️  | ❌ | ❌ | ❌ |
-| Local install	 | ✅ | ⚠️  | ⚠️  | ✅ | ✅ | ⚠️  |
-| Cluster	 | ❌ | ✅ | ✅ | ✅ | ✅ | ⚠️  |
-| Cloud		 | ❌ | ⚠️  | ⚠️  | ✅ | ✅ | ⚠️  |
-| Complex setup	 | ⚠️  | ⚠️  | ⚠️  | ✅ | ❌ | ️✅ |
-| Complex use	 | ⚠️  | ✅ | ⚠️  | ⚠️  | ✅ | ️✅ |
-| CWL version	 | v1.1 | v1.2 | v1.0? | v1.2.0 | partial v1.0 | Unknown |
+| Feature        | Airflow | Arvados | REANA | Toil |  Galaxy |
+| -------------- |:-------:|:-------:|:-----:|:----:|:------:|
+| Documentation  | ✅ | ✅ | 🚧 | ✅ | ❌ |
+| How-Tos        | ✅ | ✅ | 🚧 | 🚧 | ❌ |
+| Install guides | ✅ | ✅ | ✅ | ✅ | ⚠️  |
+| GUI            | ✅ | ✅ | ✅ | ❌ | ️✅ |
+| CLI            | ⚠️  | ✅ | ✅ | ✅ | ❌ |
+| Demo           | ❌ | ✅ | ⚠️  | ❌ | ❌ |
+| Local install  | ✅ | ⚠️  | ⚠️  | ✅ | ⚠️  |
+| Cluster        | ❌ | ✅ | ✅ | ✅ | ⚠️  |
+| Cloud          | ❌ | ⚠️  | ⚠️  | ✅ | ⚠️  |
+| Complex setup  | ⚠️  | ⚠️  | ⚠️  | ✅ | ✅ |
+| Complex use	 | ⚠️  | ✅ | ⚠️  | ⚠️  | ✅ |
+| CWL version	 | v1.1 | v1.2 | v1.0? | v1.2.0 | Unknown |
 
 
 🚧 - Work-in-progress  
